@@ -4,21 +4,6 @@ import calculate from '../logic/calculate';
 // eslint-disable-next-line react/prefer-stateless-function
 /* eslint-disable react/destructuring-assignment */
 
-// class Calculator extends Component {
-//   constructor(props) {
-//     super(props);
-//     state = {
-//       total: 0,
-//       next: null,
-//       operation: null,
-//     };
-//   }
-
-//   handleChange = (e) => {
-//     const final = calculate(state, e.target.innerHTML);
-//     setState(final);
-//   };
-
 function Calculator() {
   const [data, setData] = useState({
     total: 0,
