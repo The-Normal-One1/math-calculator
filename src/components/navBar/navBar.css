@@ -1,0 +1,35 @@
+.nav-bar {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  background-color: rgb(173, 96, 60);
+  align-items: center;
+  height: 4.375rem;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-logo {
+  font-size: 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  padding-right: 15px;
+  border-right: 3px solid rgb(85, 84, 84);
+  text-decoration: underline;
+}
+
+.nav-links li :hover {
+  color: brown;
+}

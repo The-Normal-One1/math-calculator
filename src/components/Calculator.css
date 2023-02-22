@@ -8,10 +8,19 @@
 body {
   background-color: burlywood;
   font-family: 'Roboto', sans-serif;
-  display: grid;
-  place-content: center;
-  height: 100vh;
   font-size: 32px;
+}
+
+.Calculate {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  gap: 15%;
+}
+
+.mathHeader {
+  margin-top: 30px;
+  font-size: 40px;
 }
 
 .App {
@@ -75,4 +84,25 @@ body {
 
 .zero {
   grid-column: 1 / span 2;
+}
+
+/* Home Page css */
+
+.home {
+  margin: 50px;
+}
+
+.homeHeader {
+  margin-bottom: 50px;
+}
+
+.homePara {
+  padding: 20px;
+}
+
+/* Quote css */
+
+.quoteHeader {
+  margin: 200px 60px;
+  font-size: 45px;
 }
