@@ -7,6 +7,7 @@ import NavBar from '../components/navBar/navBar';
 import Quote from '../pages/quotePage';
 import Calculate from '../logic/calculate';
 
+// test
 describe('calculator functions', () => {
   it('addition 5 + 5 to equal 10', () => {
     const object = {
