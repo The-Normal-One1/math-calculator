@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-user-drag: none;
+}
+
+body {
+  background-color: burlywood;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+.Calculate {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  gap: 15%;
+}
+
+.mathHeader {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.App {
+  height: 85vh;
+  width: 70vh;
+  background-color: rgb(8, 241, 241);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 7px 7px 5px 1px rgba(50, 50, 50, 0.75);
+}
+
+.main {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.screen {
+  grid-column: 1/ -1;
+  text-align: right;
+  padding: 8px;
+  font-size: 64px;
+  overflow: hidden;
+  background-color: rgb(133, 132, 132);
+  color: white;
+}
+
+.input {
+  grid-column: 1/ -1;
+  text-align: right;
+  font-size: 64px;
+  width: 100%;
+  padding-right: 2px;
+  color: white;
+  border: none;
+  overflow: hidden;
+}
+
+.btn {
+  display: grid;
+  place-content: center;
+  background-color: lightgray;
+  border: 1px solid rgb(184, 184, 184);
+  cursor: pointer;
+  font-size: 32px;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.orange {
+  background-color: rgb(243, 170, 33);
+}
+
+.orange:hover {
+  background-color: lightslategray;
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
+
+/* Home Page css */
+
+.home {
+  margin: 50px;
+}
+
+.homeHeader {
+  margin-bottom: 50px;
+}
+
+.homePara {
+  padding: 20px;
+}
+
+/* Quote css */
+
+.quoteHeader {
+  margin: 200px 60px;
+  font-size: 45px;
+}
