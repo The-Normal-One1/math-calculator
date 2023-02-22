@@ -58,7 +58,25 @@ describe('calculator functions', () => {
     expect(newObj.total).toBe('0');
   });
 
-  // another functionality...
+  it('equal function', () => {
+    const object = {
+      total: '5',
+      next: '5',
+      operation: '+',
+    };
+    const newObj = Calculate(object, '=');
+    expect(newObj.total).toBe('10');
+  });
+
+  it('AC function', () => {
+    const object = {
+      total: '5',
+      next: '5',
+      operation: '%',
+    };
+    const newObj = Calculate(object, 'AC');
+    expect(newObj.total).toBe(null);
+  });
 
   it('+/- function', () => {
     const object = {
