@@ -1,7 +1,7 @@
 import React from 'react';
 import testRenderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Calculator from '../components/calculator';
+import Calculator from '../components/Calculator';
 import Home from '../pages/homePage';
 import NavBar from '../components/navBar/navBar';
 import Quote from '../pages/quotePage';
